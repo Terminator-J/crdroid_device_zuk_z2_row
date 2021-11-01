@@ -44,5 +44,8 @@ TARGET_VENDOR := ZUK
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="z2_row-user 7.0 NRD90M 2.5.435_170525 release-keys"
 
+#GApps
+WITH_GAPPS := true
+
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "ZUK/z2_row/z2_row:7.0/NRD90M/2.5.435_170525:user/release-keys"
