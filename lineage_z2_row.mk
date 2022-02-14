@@ -24,10 +24,10 @@ $(call inherit-product, device/zuk/z2_row/device.mk)
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_z2_row
+PRODUCT_NAME := lineage_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
